@@ -1,0 +1,10 @@
+[project]
+name = "skill-office-docs"
+version = "0.1.0"
+description = "Office document and meeting-notes skill repo for the local Autobot runtime."
+requires-python = ">=3.10"
+dependencies = []  # runtime: ecosystem.domains.office (injected)
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
